@@ -1,0 +1,16 @@
+#about {
+    margin-top: 20px;
+}
+.about-me {
+    margin-bottom: 20px;
+    padding-right: 500px;
+}
+.about-me__title {
+    color: var(--title-color);
+    margin-bottom: 10px;
+}
+.about-me__text {
+    color: var(--text-color);
+    text-align: left;
+    font-size: 18px;
+}
