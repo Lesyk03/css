@@ -19,7 +19,7 @@
         <nav id="nav-bar">
             <a class="nav-link" href="#about">About me</a>
             <a class="nav-link" href="#hobby">Hobby</a>
-            <a class="nav-link" href="#favorite-countries">Favorite places</a>
+            <a class="nav-link" href="#favorite-countries">Favorite countries</a>
         </nav>
     </header>
     <main>
@@ -75,7 +75,7 @@
                                 confidently say that this country is wonderful.</p>
                             </div>
                     </article>
-                    <article class="favorite-countries__cards United ">
+                    <article class="favorite-countries__cards ">
                         <header class="favorite-countries__cards__header">
                             <h3 class="favorite-countries__card-title">United Kingdom</h3>
                         </header>
@@ -95,10 +95,10 @@
     <footer class="footer">
         <div class="footer_contacts">
             <form action="#" method="post">
-                <input type="text" class="user_name" placeholder="Enter your full name*" required>
-                <input type="tel" class="user_tel" placeholder="Enter your phone number*" required>
-                <textarea name="message" cols="30" rows="10"></textarea>
-                <input type="submit" value="Request a quote">
+                <p class="footer__text">Your name* <input type="name" class="user_name footer-input" placeholder="Enter your full name*" required></p>
+                <p class="footer__text">Your number* <input type="tel" class="user_tel footer-input" placeholder="Enter your phone number*" required></p>
+                <p class="footer__text">Offer <textarea class="footer-input" name="message" cols="30" rows="2"></textarea></p>
+                <input type="submit" class="footer-input footer__submit" value="Request a quote">
             </form>
         </div>
     </footer>

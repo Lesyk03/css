@@ -1,0 +1,17 @@
+.footer-input {
+    border: 2px;
+    border-radius: 10px;
+    border-color: bisque;
+    height: 30px;
+    color: var(--text-color);
+   margin-top: 10px;
+}
+.footer__submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer__text {
+    color: var(--text-color);
+    margin-left: 40%;
+}
