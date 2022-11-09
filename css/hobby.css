@@ -1,0 +1,16 @@
+.hobby__title {
+    color: var(--title-color);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.hobby__text {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 18px;
+}
+.hobby__photo-volleyball {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+}
