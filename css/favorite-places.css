@@ -1,0 +1,35 @@
+
+.favorite-countries__benefits__text {
+    color: var(--text-color);
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.favorite-countries__title {
+    color: var(--title-color);
+    margin-bottom: 20px;
+    text-align: center;
+} 
+.favorite-countries__card-title {
+    color: rgb(17, 10, 74);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.favorite-countries__cards {
+    height: 430px;
+    width: 300px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 30px;
+    margin: 20px 40px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+
+}
+.favorite-countries__flag {
+    width: 200px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
