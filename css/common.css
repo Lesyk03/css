@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 :root {
     font-family: 'Roboto', sans-serif;
     --title-color: #a8952c;
+    --title-hover-color: #504a26;
     --text-color: #382177;
     --background-color: #9d9aad;
     --btn-text-color: #FFFFFF;
@@ -14,4 +16,9 @@
 
 body {
     background-color: var(--background-color);
+}
+
+main {
+    max-width: 1000px;
+    margin: 0px auto 0px auto;
 }
