@@ -20,7 +20,6 @@
 .favorite-countries__cards {
     height: 430px;
     width: 300px;
-    flex-direction: column;
     display: flex;
     border-radius: 30px;
     margin: 20px 40px;
@@ -36,3 +35,18 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (min-width: 660px) {
+    .favorite-countries__cards-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .favorite-countries__cards-container  {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+  }
